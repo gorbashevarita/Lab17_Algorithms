@@ -1,0 +1,132 @@
+<mxfile host="65bd71144e">
+    <diagram id="-5JEouQzfBz62CH3K78A" name="Page-1">
+        <mxGraphModel dx="453" dy="619" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="6" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="2" target="3" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="2" value="Начало" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="230" y="140" width="120" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="3" target="4" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="Ввод:&lt;div&gt;целевой этаж (N)&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
+                    <mxGeometry x="220" y="240" width="140" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="4" target="5" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="Текущий этаж = 1" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="230" y="330" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="Текущий этаж &amp;lt; N?" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="220" y="390" width="140" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="9" target="10" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="Поднять на этаж выше" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="400" y="480" width="140" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="10" target="13" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="470" y="610"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="10" value="Текущий этаж =&lt;div&gt;текущий этаж + 1&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
+                    <mxGeometry x="385" y="550" width="170" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="ДА" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.56;entryY=-0.04;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="5" target="9" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="480" y="430"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="17" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="13" target="16" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="18" value="НЕТ" style="edgeStyle=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" target="5" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="470" y="610" as="sourcePoint"/>
+                        <Array as="points">
+                            <mxPoint x="220" y="610"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="13" value="Вы на целевом этаже!" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
+                    <mxGeometry x="385" y="630" width="170" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="16" value="Конец" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="410" y="700" width="120" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="20" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" source="21" target="23" parent="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="21" value="&lt;span style=&quot;color: rgba(0, 0, 0, 0.7); font-family: Consolas, Menlo, Monaco, &amp;quot;Lucida Console&amp;quot;, &amp;quot;DejaVu Sans Mono&amp;quot;, &amp;quot;Bitstream Vera Sans Mono&amp;quot;, monospace, sans-serif; font-size: 14px; letter-spacing: 0.208px; text-align: start; white-space: pre; background-color: rgb(252, 252, 252);&quot;&gt;Console.WriteLine&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;color: rgba(0, 0, 0, 0.7); font-family: Consolas, Menlo, Monaco, &amp;quot;Lucida Console&amp;quot;, &amp;quot;DejaVu Sans Mono&amp;quot;, &amp;quot;Bitstream Vera Sans Mono&amp;quot;, monospace, sans-serif; font-size: 14px; letter-spacing: 0.208px; text-align: start; white-space: pre; background-color: rgb(252, 252, 252);&quot;&gt;(&lt;/span&gt;&lt;span style=&quot;color: rgb(3, 47, 98); font-family: Consolas, Menlo, Monaco, &amp;quot;Lucida Console&amp;quot;, &amp;quot;DejaVu Sans Mono&amp;quot;, &amp;quot;Bitstream Vera Sans Mono&amp;quot;, monospace, sans-serif; font-size: 14px; letter-spacing: 0.208px; text-align: start; white-space: pre; background-color: rgb(252, 252, 252);&quot; class=&quot;hljs-string&quot;&gt;&quot;Подъём по лестнице&quot;&lt;/span&gt;&lt;span style=&quot;color: rgba(0, 0, 0, 0.7); font-family: Consolas, Menlo, Monaco, &amp;quot;Lucida Console&amp;quot;, &amp;quot;DejaVu Sans Mono&amp;quot;, &amp;quot;Bitstream Vera Sans Mono&amp;quot;, monospace, sans-serif; font-size: 14px; letter-spacing: 0.208px; text-align: start; white-space: pre; background-color: rgb(252, 252, 252);&quot;&gt;);&lt;/span&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="180" y="850" width="220" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="22" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" source="23" target="25" parent="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="23" value="&lt;span style=&quot;color: rgba(0, 0, 0, 0.7); font-family: Consolas, Menlo, Monaco, &amp;quot;Lucida Console&amp;quot;, &amp;quot;DejaVu Sans Mono&amp;quot;, &amp;quot;Bitstream Vera Sans Mono&amp;quot;, monospace, sans-serif; font-size: 14px; letter-spacing: 0.208px; text-align: start; white-space: pre; background-color: rgb(252, 252, 252);&quot;&gt;Console.Write(&lt;/span&gt;&lt;span style=&quot;color: rgb(3, 47, 98); font-family: Consolas, Menlo, Monaco, &amp;quot;Lucida Console&amp;quot;, &amp;quot;DejaVu Sans Mono&amp;quot;, &amp;quot;Bitstream Vera Sans Mono&amp;quot;, monospace, sans-serif; font-size: 14px; letter-spacing: 0.208px; text-align: start; white-space: pre; background-color: rgb(252, 252, 252);&quot; class=&quot;hljs-string&quot;&gt;&quot;На какой этаж нужно подняться?: &quot;&lt;/span&gt;&lt;span style=&quot;color: rgba(0, 0, 0, 0.7); font-family: Consolas, Menlo, Monaco, &amp;quot;Lucida Console&amp;quot;, &amp;quot;DejaVu Sans Mono&amp;quot;, &amp;quot;Bitstream Vera Sans Mono&amp;quot;, monospace, sans-serif; font-size: 14px; letter-spacing: 0.208px; text-align: start; white-space: pre; background-color: rgb(252, 252, 252);&quot;&gt;);&lt;br/&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(227, 98, 9); font-family: Consolas, Menlo, Monaco, &amp;quot;Lucida Console&amp;quot;, &amp;quot;DejaVu Sans Mono&amp;quot;, &amp;quot;Bitstream Vera Sans Mono&amp;quot;, monospace, sans-serif; font-size: 14px; letter-spacing: 0.208px; text-align: start; white-space: pre; background-color: rgb(252, 252, 252);&quot; class=&quot;hljs-built_in&quot;&gt;int&lt;/span&gt;&lt;span style=&quot;color: rgba(0, 0, 0, 0.7); font-family: Consolas, Menlo, Monaco, &amp;quot;Lucida Console&amp;quot;, &amp;quot;DejaVu Sans Mono&amp;quot;, &amp;quot;Bitstream Vera Sans Mono&amp;quot;, monospace, sans-serif; font-size: 14px; letter-spacing: 0.208px; text-align: start; white-space: pre; background-color: rgb(252, 252, 252);&quot;&gt; targetFloor = Convert.ToInt32(Console.ReadLine());&lt;br/&gt;&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;color: rgba(0, 0, 0, 0.7); font-family: Consolas, Menlo, Monaco, &amp;quot;Lucida Console&amp;quot;, &amp;quot;DejaVu Sans Mono&amp;quot;, &amp;quot;Bitstream Vera Sans Mono&amp;quot;, monospace, sans-serif; font-size: 14px; letter-spacing: 0.208px; text-align: start; white-space: pre; background-color: rgb(252, 252, 252);&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+                    <mxGeometry x="50" y="950" width="480" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="24" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" source="25" target="26" parent="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="25" value="&lt;span style=&quot;color: rgb(227, 98, 9); font-family: Consolas, Menlo, Monaco, &amp;quot;Lucida Console&amp;quot;, &amp;quot;DejaVu Sans Mono&amp;quot;, &amp;quot;Bitstream Vera Sans Mono&amp;quot;, monospace, sans-serif; font-size: 14px; letter-spacing: 0.208px; text-align: start; white-space: pre; background-color: rgb(252, 252, 252);&quot; class=&quot;hljs-built_in&quot;&gt;int&lt;/span&gt;&lt;span style=&quot;color: rgba(0, 0, 0, 0.7); font-family: Consolas, Menlo, Monaco, &amp;quot;Lucida Console&amp;quot;, &amp;quot;DejaVu Sans Mono&amp;quot;, &amp;quot;Bitstream Vera Sans Mono&amp;quot;, monospace, sans-serif; font-size: 14px; letter-spacing: 0.208px; text-align: start; white-space: pre; background-color: rgb(252, 252, 252);&quot;&gt; currentFloor = &lt;/span&gt;&lt;span style=&quot;color: rgb(0, 92, 197); font-family: Consolas, Menlo, Monaco, &amp;quot;Lucida Console&amp;quot;, &amp;quot;DejaVu Sans Mono&amp;quot;, &amp;quot;Bitstream Vera Sans Mono&amp;quot;, monospace, sans-serif; font-size: 14px; letter-spacing: 0.208px; text-align: start; white-space: pre; background-color: rgb(252, 252, 252);&quot; class=&quot;hljs-number&quot;&gt;1&lt;/span&gt;&lt;span style=&quot;color: rgba(0, 0, 0, 0.7); font-family: Consolas, Menlo, Monaco, &amp;quot;Lucida Console&amp;quot;, &amp;quot;DejaVu Sans Mono&amp;quot;, &amp;quot;Bitstream Vera Sans Mono&amp;quot;, monospace, sans-serif; font-size: 14px; letter-spacing: 0.208px; text-align: start; white-space: pre; background-color: rgb(252, 252, 252);&quot;&gt;;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="195" y="1040" width="190" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="26" value="&lt;span style=&quot;color: rgb(215, 58, 73); font-family: Consolas, Menlo, Monaco, &amp;quot;Lucida Console&amp;quot;, &amp;quot;DejaVu Sans Mono&amp;quot;, &amp;quot;Bitstream Vera Sans Mono&amp;quot;, monospace, sans-serif; font-size: 14px; letter-spacing: 0.208px; text-align: start; white-space: pre; background-color: rgb(252, 252, 252);&quot; class=&quot;hljs-keyword&quot;&gt;while&lt;/span&gt;&lt;span style=&quot;color: rgba(0, 0, 0, 0.7); font-family: Consolas, Menlo, Monaco, &amp;quot;Lucida Console&amp;quot;, &amp;quot;DejaVu Sans Mono&amp;quot;, &amp;quot;Bitstream Vera Sans Mono&amp;quot;, monospace, sans-serif; font-size: 14px; letter-spacing: 0.208px; text-align: start; white-space: pre; background-color: rgb(252, 252, 252);&quot;&gt; (currentFloor &amp;lt; targetFloor)&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="115" y="1100" width="350" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="27" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" source="28" target="30" parent="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="28" value="&lt;span style=&quot;color: rgba(0, 0, 0, 0.7); font-family: Consolas, Menlo, Monaco, &amp;quot;Lucida Console&amp;quot;, &amp;quot;DejaVu Sans Mono&amp;quot;, &amp;quot;Bitstream Vera Sans Mono&amp;quot;, monospace, sans-serif; font-size: 14px; letter-spacing: 0.208px; text-align: start; white-space: pre; background-color: rgb(252, 252, 252);&quot;&gt;currentFloor++;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="400" y="1190" width="140" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="29" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" source="30" target="34" parent="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="470" y="1320"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="30" value="&lt;span style=&quot;color: rgba(0, 0, 0, 0.7); font-family: Consolas, Menlo, Monaco, &amp;quot;Lucida Console&amp;quot;, &amp;quot;DejaVu Sans Mono&amp;quot;, &amp;quot;Bitstream Vera Sans Mono&amp;quot;, monospace, sans-serif; font-size: 14px; letter-spacing: 0.208px; text-align: start; white-space: pre; background-color: rgb(252, 252, 252);&quot;&gt;Console.WriteLine&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;color: rgba(0, 0, 0, 0.7); font-family: Consolas, Menlo, Monaco, &amp;quot;Lucida Console&amp;quot;, &amp;quot;DejaVu Sans Mono&amp;quot;, &amp;quot;Bitstream Vera Sans Mono&amp;quot;, monospace, sans-serif; font-size: 14px; letter-spacing: 0.208px; text-align: start; white-space: pre; background-color: rgb(252, 252, 252);&quot;&gt;(&lt;/span&gt;&lt;span style=&quot;color: rgb(3, 47, 98); font-family: Consolas, Menlo, Monaco, &amp;quot;Lucida Console&amp;quot;, &amp;quot;DejaVu Sans Mono&amp;quot;, &amp;quot;Bitstream Vera Sans Mono&amp;quot;, monospace, sans-serif; font-size: 14px; letter-spacing: 0.208px; text-align: start; white-space: pre; background-color: rgb(252, 252, 252);&quot; class=&quot;hljs-string&quot;&gt;$&quot;Поднялись на &lt;span style=&quot;color: rgb(36, 41, 46);&quot; class=&quot;hljs-subst&quot;&gt;{currentFloor}&lt;/span&gt;-й этаж&quot;&lt;/span&gt;&lt;span style=&quot;color: rgba(0, 0, 0, 0.7); font-family: Consolas, Menlo, Monaco, &amp;quot;Lucida Console&amp;quot;, &amp;quot;DejaVu Sans Mono&amp;quot;, &amp;quot;Bitstream Vera Sans Mono&amp;quot;, monospace, sans-serif; font-size: 14px; letter-spacing: 0.208px; text-align: start; white-space: pre; background-color: rgb(252, 252, 252);&quot;&gt;);&lt;/span&gt;&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+                    <mxGeometry x="292.5" y="1260" width="355" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="31" value="ДА" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.56;entryY=-0.04;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" source="26" target="28" parent="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="480" y="1140"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="32" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" source="34" target="35" parent="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="33" value="НЕТ" style="edgeStyle=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" target="26" parent="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="470" y="1320" as="sourcePoint"/>
+                        <Array as="points">
+                            <mxPoint x="115" y="1320"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="34" value="&lt;span style=&quot;color: rgba(0, 0, 0, 0.7); font-family: Consolas, Menlo, Monaco, &amp;quot;Lucida Console&amp;quot;, &amp;quot;DejaVu Sans Mono&amp;quot;, &amp;quot;Bitstream Vera Sans Mono&amp;quot;, monospace, sans-serif; font-size: 14px; letter-spacing: 0.208px; text-align: start; white-space: pre; background-color: rgb(252, 252, 252);&quot;&gt;Console.WriteLine&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;color: rgba(0, 0, 0, 0.7); font-family: Consolas, Menlo, Monaco, &amp;quot;Lucida Console&amp;quot;, &amp;quot;DejaVu Sans Mono&amp;quot;, &amp;quot;Bitstream Vera Sans Mono&amp;quot;, monospace, sans-serif; font-size: 14px; letter-spacing: 0.208px; text-align: start; white-space: pre; background-color: rgb(252, 252, 252);&quot;&gt;(&lt;/span&gt;&lt;span style=&quot;color: rgb(3, 47, 98); font-family: Consolas, Menlo, Monaco, &amp;quot;Lucida Console&amp;quot;, &amp;quot;DejaVu Sans Mono&amp;quot;, &amp;quot;Bitstream Vera Sans Mono&amp;quot;, monospace, sans-serif; font-size: 14px; letter-spacing: 0.208px; text-align: start; white-space: pre; background-color: rgb(252, 252, 252);&quot; class=&quot;hljs-string&quot;&gt;$&quot;Вы достигли &lt;span style=&quot;color: rgb(36, 41, 46);&quot; class=&quot;hljs-subst&quot;&gt;{targetFloor}&lt;/span&gt;-го этажа!&quot;&lt;/span&gt;&lt;span style=&quot;color: rgba(0, 0, 0, 0.7); font-family: Consolas, Menlo, Monaco, &amp;quot;Lucida Console&amp;quot;, &amp;quot;DejaVu Sans Mono&amp;quot;, &amp;quot;Bitstream Vera Sans Mono&amp;quot;, monospace, sans-serif; font-size: 14px; letter-spacing: 0.208px; text-align: start; white-space: pre; background-color: rgb(252, 252, 252);&quot;&gt;);&lt;/span&gt;&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+                    <mxGeometry x="292.5" y="1340" width="355" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="35" value="&lt;span style=&quot;color: rgba(0, 0, 0, 0.7); font-family: Consolas, Menlo, Monaco, &amp;quot;Lucida Console&amp;quot;, &amp;quot;DejaVu Sans Mono&amp;quot;, &amp;quot;Bitstream Vera Sans Mono&amp;quot;, monospace, sans-serif; font-size: 14px; letter-spacing: 0.208px; text-align: start; white-space: pre; background-color: rgb(252, 252, 252);&quot;&gt;Console.WriteLine&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;color: rgba(0, 0, 0, 0.7); font-family: Consolas, Menlo, Monaco, &amp;quot;Lucida Console&amp;quot;, &amp;quot;DejaVu Sans Mono&amp;quot;, &amp;quot;Bitstream Vera Sans Mono&amp;quot;, monospace, sans-serif; font-size: 14px; letter-spacing: 0.208px; text-align: start; white-space: pre; background-color: rgb(252, 252, 252);&quot;&gt;(&lt;/span&gt;&lt;span style=&quot;color: rgb(3, 47, 98); font-family: Consolas, Menlo, Monaco, &amp;quot;Lucida Console&amp;quot;, &amp;quot;DejaVu Sans Mono&amp;quot;, &amp;quot;Bitstream Vera Sans Mono&amp;quot;, monospace, sans-serif; font-size: 14px; letter-spacing: 0.208px; text-align: start; white-space: pre; background-color: rgb(252, 252, 252);&quot; class=&quot;hljs-string&quot;&gt;&quot;Конец программы&quot;&lt;/span&gt;&lt;span style=&quot;color: rgba(0, 0, 0, 0.7); font-family: Consolas, Menlo, Monaco, &amp;quot;Lucida Console&amp;quot;, &amp;quot;DejaVu Sans Mono&amp;quot;, &amp;quot;Bitstream Vera Sans Mono&amp;quot;, monospace, sans-serif; font-size: 14px; letter-spacing: 0.208px; text-align: start; white-space: pre; background-color: rgb(252, 252, 252);&quot;&gt;);&lt;/span&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="380" y="1410" width="180" height="80" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
