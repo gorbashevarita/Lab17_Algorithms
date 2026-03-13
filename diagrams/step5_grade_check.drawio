@@ -1,0 +1,236 @@
+<mxfile host="65bd71144e">
+    <diagram id="_6d8cRtv5MFDCt-6fS42" name="Page-1">
+        <mxGraphModel dx="560" dy="312" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="4" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="2" target="3">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="2" value="Начало" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="180" y="30" width="120" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="3" target="5">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="Ввод: баллы" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+                    <mxGeometry x="160" y="100" width="160" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="ДА" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="5" target="7">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="139.9999999999999" y="220.21052631578948" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="140" y="220"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="10" value="НЕТ" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="5" target="9">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="380" y="220"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="5" value="Баллы &amp;gt;= 91?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="165" y="180" width="150" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="22" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="7" target="19">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="140" y="440"/>
+                            <mxPoint x="260" y="440"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="7" value="Оценка: 5" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="100" y="260" width="80" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" value="ДА" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="9" target="11">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="265" y="280"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="14" value="НЕТ" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="9" target="13">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="520" y="280"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="9" value="Баллы &amp;gt;= 71?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="310" y="240" width="140" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="23" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="11">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="265" y="500" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="11" value="Оценка: 4" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="220" y="320" width="90" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="16" value="ДА" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="13" target="15">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="400" y="340"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="18" value="НЕТ" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="13" target="17">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="670" y="340"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="13" value="Баллы &amp;gt;= 51?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="440" y="300" width="160" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="24" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="15">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="260" y="500" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="400" y="460"/>
+                            <mxPoint x="260" y="460"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="15" value="Оценка: 3" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="350" y="370" width="100" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="25" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="17" target="19">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="670" y="470"/>
+                            <mxPoint x="260" y="470"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="17" value="Оценка: 2" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="620" y="370" width="100" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="21" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="19" target="20">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="19" value="Вывод: баллы" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+                    <mxGeometry x="185" y="500" width="160" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="20" value="Конец" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="200" y="580" width="120" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="29" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="26" target="27">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="26" value="&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212));&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;div style=&quot;color: rgb(197, 205, 211); font-family: &amp;quot;Fira code&amp;quot;, fira-code-nerd, &amp;quot;FiraCode Nerd Font&amp;quot;, Consolas, &amp;quot;Courier New&amp;quot;, monospace, Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-weight: normal; font-size: 16px; line-height: 22px; white-space: pre;&quot;&gt;&lt;div&gt;&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212));&quot;&gt;&lt;span style=&quot;color: rgb(211, 182, 146);&quot;&gt;Console&lt;/span&gt;&lt;span style=&quot;color: rgb(200, 141, 162); font-weight: bold;&quot;&gt;.&lt;/span&gt;&lt;span style=&quot;color: rgb(63, 132, 141);&quot;&gt;WriteLine&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212));&quot;&gt;&lt;span style=&quot;color: rgb(197, 205, 211);&quot;&gt;(&lt;/span&gt;&lt;span style=&quot;color: rgb(114, 192, 159);&quot;&gt;&quot;Определение оценки по баллам&quot;&lt;/span&gt;&lt;span style=&quot;color: rgb(197, 205, 211);&quot;&gt;)&lt;/span&gt;&lt;span style=&quot;color: rgb(197, 205, 211); font-weight: bold;&quot;&gt;;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212));&quot;&gt;&lt;br&gt;&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="207.5" y="690" width="345" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="30" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="27" target="28">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="27" value="&lt;br&gt;&lt;div style=&quot;color: rgb(197, 205, 211); font-family: &amp;quot;Fira code&amp;quot;, fira-code-nerd, &amp;quot;FiraCode Nerd Font&amp;quot;, Consolas, &amp;quot;Courier New&amp;quot;, monospace, Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-weight: normal; font-size: 16px; line-height: 22px; white-space: pre;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(211, 182, 146);&quot;&gt;Console&lt;/span&gt;&lt;span style=&quot;color: rgb(200, 141, 162); font-weight: bold;&quot;&gt;.&lt;/span&gt;&lt;span style=&quot;color: rgb(63, 132, 141);&quot;&gt;Write&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(197, 205, 211);&quot;&gt;(&lt;/span&gt;&lt;span style=&quot;color: rgb(114, 192, 159);&quot;&gt;&quot;Введите количество баллов (0-100): &quot;&lt;/span&gt;&lt;span style=&quot;color: rgb(197, 205, 211);&quot;&gt;)&lt;/span&gt;&lt;span style=&quot;color: rgb(197, 205, 211); font-weight: bold;&quot;&gt;;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br/&gt;&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;html=1;fixedSize=1;whiteSpace=wrap;labelBackgroundColor=none;labelBorderColor=none;textShadow=0;" vertex="1" parent="1">
+                    <mxGeometry x="185" y="800" width="390" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="32" value="ДА" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="28" target="31">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="170" y="940"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="34" value="НЕТ" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="28" target="33">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="640" y="940"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="28" value="&lt;br&gt;&lt;div style=&quot;color: rgb(197, 205, 211); font-family: &amp;quot;Fira code&amp;quot;, fira-code-nerd, &amp;quot;FiraCode Nerd Font&amp;quot;, Consolas, &amp;quot;Courier New&amp;quot;, monospace, Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-weight: normal; font-size: 16px; line-height: 22px; white-space: pre;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(200, 141, 162); font-weight: bold;&quot;&gt;if&lt;/span&gt;&lt;span style=&quot;color: rgb(197, 205, 211);&quot;&gt; (&lt;/span&gt;&lt;span style=&quot;color: rgb(211, 182, 146);&quot;&gt;score&lt;/span&gt;&lt;span style=&quot;color: rgb(197, 205, 211);&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: rgb(200, 141, 162); font-weight: bold;&quot;&gt;&amp;gt;=&lt;/span&gt;&lt;span style=&quot;color: rgb(197, 205, 211);&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: rgb(112, 104, 177);&quot;&gt;91&lt;/span&gt;&lt;span style=&quot;color: rgb(197, 205, 211);&quot;&gt; &lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(200, 141, 162); font-weight: bold;&quot;&gt;&amp;amp;&amp;amp;&lt;/span&gt;&lt;span style=&quot;color: rgb(197, 205, 211);&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: rgb(211, 182, 146);&quot;&gt;score&lt;/span&gt;&lt;span style=&quot;color: rgb(197, 205, 211);&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: rgb(200, 141, 162); font-weight: bold;&quot;&gt;&amp;lt;=&lt;/span&gt;&lt;span style=&quot;color: rgb(197, 205, 211);&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: rgb(112, 104, 177);&quot;&gt;100&lt;/span&gt;&lt;span style=&quot;color: rgb(197, 205, 211);&quot;&gt;)&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br/&gt;&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="240" y="900" width="280" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="49" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="31" target="46">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="170" y="1330"/>
+                            <mxPoint x="443" y="1330"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="31" value="&lt;br&gt;&lt;div style=&quot;font-family: &amp;quot;Fira code&amp;quot;, fira-code-nerd, &amp;quot;FiraCode Nerd Font&amp;quot;, Consolas, &amp;quot;Courier New&amp;quot;, monospace, Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 16px; line-height: 22px; white-space: pre; font-weight: normal; color: rgb(197, 205, 211);&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(211, 182, 146);&quot;&gt;grade&lt;/span&gt;&lt;span style=&quot;color: rgb(197, 205, 211);&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: rgb(200, 141, 162); font-weight: bold;&quot;&gt;=&lt;/span&gt;&lt;span style=&quot;color: rgb(197, 205, 211);&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: rgb(114, 192, 159);&quot;&gt;&quot;Отлично&quot;&lt;/span&gt;&lt;span style=&quot;color: rgb(197, 205, 211); font-weight: bold;&quot;&gt;;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(211, 182, 146);&quot;&gt;numericGrade&lt;/span&gt;&lt;span style=&quot;color: rgb(197, 205, 211);&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: rgb(200, 141, 162); font-weight: bold;&quot;&gt;=&lt;/span&gt;&lt;span style=&quot;color: rgb(197, 205, 211);&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: rgb(112, 104, 177);&quot;&gt;5&lt;/span&gt;&lt;span style=&quot;color: rgb(197, 205, 211); font-weight: bold;&quot;&gt;;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br/&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="70" y="990" width="200" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="38" value="ДА" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="33" target="37">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="430" y="1030"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="41" value="НЕТ" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="33" target="40">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="920" y="1030"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="33" value="&lt;br&gt;&lt;div style=&quot;color: rgb(197, 205, 211); font-family: &amp;quot;Fira code&amp;quot;, fira-code-nerd, &amp;quot;FiraCode Nerd Font&amp;quot;, Consolas, &amp;quot;Courier New&amp;quot;, monospace, Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-weight: normal; font-size: 16px; line-height: 22px; white-space: pre;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(200, 141, 162); font-weight: bold;&quot;&gt;else&lt;/span&gt;&lt;span style=&quot;color: rgb(197, 205, 211);&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: rgb(200, 141, 162); font-weight: bold;&quot;&gt;if&lt;/span&gt;&lt;span style=&quot;color: rgb(197, 205, 211);&quot;&gt; (&lt;/span&gt;&lt;span style=&quot;color: rgb(211, 182, 146);&quot;&gt;score&lt;/span&gt;&lt;span style=&quot;color: rgb(197, 205, 211);&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: rgb(200, 141, 162); font-weight: bold;&quot;&gt;&amp;gt;=&lt;/span&gt;&lt;span style=&quot;color: rgb(197, 205, 211);&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: rgb(112, 104, 177);&quot;&gt;71&lt;/span&gt;&lt;span style=&quot;color: rgb(197, 205, 211);&quot;&gt; &lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(200, 141, 162); font-weight: bold;&quot;&gt;&amp;amp;&amp;amp;&lt;/span&gt;&lt;span style=&quot;color: rgb(197, 205, 211);&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: rgb(211, 182, 146);&quot;&gt;score&lt;/span&gt;&lt;span style=&quot;color: rgb(197, 205, 211);&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: rgb(200, 141, 162); font-weight: bold;&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span style=&quot;color: rgb(197, 205, 211);&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: rgb(112, 104, 177);&quot;&gt;90&lt;/span&gt;&lt;span style=&quot;color: rgb(197, 205, 211);&quot;&gt;)&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br/&gt;&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="500" y="980" width="280" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="50" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="37" target="46">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="37" value="&#xa;&lt;div style=&quot;color: rgb(197, 205, 211); font-family: &amp;quot;Fira code&amp;quot;, fira-code-nerd, &amp;quot;FiraCode Nerd Font&amp;quot;, Consolas, &amp;quot;Courier New&amp;quot;, monospace, Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-weight: normal; font-size: 16px; line-height: 22px; white-space: pre;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #d3b692;&quot;&gt;grade&lt;/span&gt;&lt;span style=&quot;color: #c5cdd3;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #c88da2;font-weight: bold;&quot;&gt;=&lt;/span&gt;&lt;span style=&quot;color: #c5cdd3;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #72c09f;&quot;&gt;&quot;Хорошо&quot;&lt;/span&gt;&lt;span style=&quot;color: #c5cdd3;font-weight: bold;&quot;&gt;;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #c5cdd3;&quot;&gt;&amp;nbsp; &amp;nbsp; &lt;/span&gt;&lt;span style=&quot;color: #d3b692;&quot;&gt;numericGrade&lt;/span&gt;&lt;span style=&quot;color: #c5cdd3;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #c88da2;font-weight: bold;&quot;&gt;=&lt;/span&gt;&lt;span style=&quot;color: #c5cdd3;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #7068b1;&quot;&gt;4&lt;/span&gt;&lt;span style=&quot;color: #c5cdd3;font-weight: bold;&quot;&gt;;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&#xa;&#xa;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="330" y="1080" width="200" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="43" value="ДА" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="40" target="42">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="690" y="1125"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="45" value="НЕТ" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="40" target="44">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="1185" y="1125"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="40" value="&lt;br&gt;&lt;div style=&quot;color: rgb(197, 205, 211); font-family: &amp;quot;Fira code&amp;quot;, fira-code-nerd, &amp;quot;FiraCode Nerd Font&amp;quot;, Consolas, &amp;quot;Courier New&amp;quot;, monospace, Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-weight: normal; font-size: 16px; line-height: 22px; white-space: pre;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(200, 141, 162); font-weight: bold;&quot;&gt;else&lt;/span&gt;&lt;span style=&quot;color: rgb(197, 205, 211);&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: rgb(200, 141, 162); font-weight: bold;&quot;&gt;if&lt;/span&gt;&lt;span style=&quot;color: rgb(197, 205, 211);&quot;&gt; (&lt;/span&gt;&lt;span style=&quot;color: rgb(211, 182, 146);&quot;&gt;score&lt;/span&gt;&lt;span style=&quot;color: rgb(197, 205, 211);&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: rgb(200, 141, 162); font-weight: bold;&quot;&gt;&amp;gt;=&lt;/span&gt;&lt;span style=&quot;color: rgb(197, 205, 211);&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: rgb(112, 104, 177);&quot;&gt;51&lt;/span&gt;&lt;span style=&quot;color: rgb(197, 205, 211);&quot;&gt; &lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(200, 141, 162); font-weight: bold;&quot;&gt;&amp;amp;&amp;amp;&lt;/span&gt;&lt;span style=&quot;color: rgb(197, 205, 211);&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: rgb(211, 182, 146);&quot;&gt;score&lt;/span&gt;&lt;span style=&quot;color: rgb(197, 205, 211);&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: rgb(200, 141, 162); font-weight: bold;&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span style=&quot;color: rgb(197, 205, 211);&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: rgb(112, 104, 177);&quot;&gt;70&lt;/span&gt;&lt;span style=&quot;color: rgb(197, 205, 211);&quot;&gt;)&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br/&gt;&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="790" y="1070" width="260" height="110" as="geometry"/>
+                </mxCell>
+                <mxCell id="51" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="42" target="46">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="690" y="1330"/>
+                            <mxPoint x="443" y="1330"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="42" value="&#xa;&lt;div style=&quot;color: rgb(197, 205, 211); font-family: &amp;quot;Fira code&amp;quot;, fira-code-nerd, &amp;quot;FiraCode Nerd Font&amp;quot;, Consolas, &amp;quot;Courier New&amp;quot;, monospace, Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-weight: normal; font-size: 16px; line-height: 22px; white-space: pre;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #d3b692;&quot;&gt;grade&lt;/span&gt;&lt;span style=&quot;color: #c5cdd3;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #c88da2;font-weight: bold;&quot;&gt;=&lt;/span&gt;&lt;span style=&quot;color: #c5cdd3;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #72c09f;&quot;&gt;&quot;Удовлетворительно&quot;&lt;/span&gt;&lt;span style=&quot;color: #c5cdd3;font-weight: bold;&quot;&gt;;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #c5cdd3;&quot;&gt;&amp;nbsp; &amp;nbsp; &lt;/span&gt;&lt;span style=&quot;color: #d3b692;&quot;&gt;numericGrade&lt;/span&gt;&lt;span style=&quot;color: #c5cdd3;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #c88da2;font-weight: bold;&quot;&gt;=&lt;/span&gt;&lt;span style=&quot;color: #c5cdd3;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #7068b1;&quot;&gt;3&lt;/span&gt;&lt;span style=&quot;color: #c5cdd3;font-weight: bold;&quot;&gt;;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&#xa;&#xa;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="560" y="1180" width="260" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="52" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="44" target="46">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="1185" y="1360"/>
+                            <mxPoint x="443" y="1360"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="44" value="&#xa;&lt;div style=&quot;color: rgb(197, 205, 211); font-family: &amp;quot;Fira code&amp;quot;, fira-code-nerd, &amp;quot;FiraCode Nerd Font&amp;quot;, Consolas, &amp;quot;Courier New&amp;quot;, monospace, Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-weight: normal; font-size: 16px; line-height: 22px; white-space: pre;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #d3b692;&quot;&gt;grade&lt;/span&gt;&lt;span style=&quot;color: #c5cdd3;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #c88da2;font-weight: bold;&quot;&gt;=&lt;/span&gt;&lt;span style=&quot;color: #c5cdd3;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #72c09f;&quot;&gt;&quot;Неудовлетворительно&quot;&lt;/span&gt;&lt;span style=&quot;color: #c5cdd3;font-weight: bold;&quot;&gt;;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #c5cdd3;&quot;&gt;&amp;nbsp; &amp;nbsp; &lt;/span&gt;&lt;span style=&quot;color: #d3b692;&quot;&gt;numericGrade&lt;/span&gt;&lt;span style=&quot;color: #c5cdd3;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #c88da2;font-weight: bold;&quot;&gt;=&lt;/span&gt;&lt;span style=&quot;color: #c5cdd3;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #7068b1;&quot;&gt;2&lt;/span&gt;&lt;span style=&quot;color: #c5cdd3;font-weight: bold;&quot;&gt;;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&#xa;&#xa;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="1040" y="1170" width="290" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="54" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="46" target="53">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="46" value="&#xa;&lt;div style=&quot;color: rgb(197, 205, 211); font-family: &amp;quot;Fira code&amp;quot;, fira-code-nerd, &amp;quot;FiraCode Nerd Font&amp;quot;, Consolas, &amp;quot;Courier New&amp;quot;, monospace, Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-weight: normal; font-size: 16px; line-height: 22px; white-space: pre;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #d3b692;&quot;&gt;Console&lt;/span&gt;&lt;span style=&quot;color: #c88da2;font-weight: bold;&quot;&gt;.&lt;/span&gt;&lt;span style=&quot;color: #3f848d;&quot;&gt;WriteLine&lt;/span&gt;&lt;span style=&quot;color: #c5cdd3;&quot;&gt;(&lt;/span&gt;&lt;span style=&quot;color: #72c09f;&quot;&gt;&quot;Результат&quot;&lt;/span&gt;&lt;span style=&quot;color: #c5cdd3;&quot;&gt;)&lt;/span&gt;&lt;span style=&quot;color: #c5cdd3;font-weight: bold;&quot;&gt;;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #d3b692;&quot;&gt;Console&lt;/span&gt;&lt;span style=&quot;color: #c88da2;font-weight: bold;&quot;&gt;.&lt;/span&gt;&lt;span style=&quot;color: #3f848d;&quot;&gt;WriteLine&lt;/span&gt;&lt;span style=&quot;color: #c5cdd3;&quot;&gt;(&lt;/span&gt;&lt;span style=&quot;color: #72c09f;&quot;&gt;$&quot;Баллы: &lt;/span&gt;&lt;span style=&quot;color: #5998c0;&quot;&gt;{&lt;/span&gt;&lt;span style=&quot;color: #d3b692;&quot;&gt;score&lt;/span&gt;&lt;span style=&quot;color: #5998c0;&quot;&gt;}&lt;/span&gt;&lt;span style=&quot;color: #72c09f;&quot;&gt;&quot;&lt;/span&gt;&lt;span style=&quot;color: #c5cdd3;&quot;&gt;)&lt;/span&gt;&lt;span style=&quot;color: #c5cdd3;font-weight: bold;&quot;&gt;;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #d3b692;&quot;&gt;Console&lt;/span&gt;&lt;span style=&quot;color: #c88da2;font-weight: bold;&quot;&gt;.&lt;/span&gt;&lt;span style=&quot;color: #3f848d;&quot;&gt;WriteLine&lt;/span&gt;&lt;span style=&quot;color: #c5cdd3;&quot;&gt;(&lt;/span&gt;&lt;span style=&quot;color: #72c09f;&quot;&gt;$&quot;Оценка: &lt;/span&gt;&lt;span style=&quot;color: #5998c0;&quot;&gt;{&lt;/span&gt;&lt;span style=&quot;color: #d3b692;&quot;&gt;grade&lt;/span&gt;&lt;span style=&quot;color: #5998c0;&quot;&gt;}&lt;/span&gt;&lt;span style=&quot;color: #72c09f;&quot;&gt; (&lt;/span&gt;&lt;span style=&quot;color: #5998c0;&quot;&gt;{&lt;/span&gt;&lt;span style=&quot;color: #d3b692;&quot;&gt;numericGrade&lt;/span&gt;&lt;span style=&quot;color: #5998c0;&quot;&gt;}&lt;/span&gt;&lt;span style=&quot;color: #72c09f;&quot;&gt;)&quot;&lt;/span&gt;&lt;span style=&quot;color: #c5cdd3;&quot;&gt;)&lt;/span&gt;&lt;span style=&quot;color: #c5cdd3;font-weight: bold;&quot;&gt;;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&#xa;&#xa;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;labelBackgroundColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="185" y="1430" width="515" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="53" value="Конец" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="382.5" y="1550" width="120" height="80" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
